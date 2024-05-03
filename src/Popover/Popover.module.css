@@ -1,0 +1,29 @@
+.popover {
+  font-size: large;
+  padding: 16px 32px 32px 32px;
+  border: 1px solid rgba(255,255,255, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;  
+  max-width: 90dvw;
+  transition: opacity 1s;
+  opacity: 0;
+  & button{
+    float: right;
+  }
+  &:popover-open {
+    opacity: 1;
+  }
+}
+
+.position-bottom-right {
+  &:popover-open {
+  inset: unset;
+  bottom: 36px;
+  left: 36px;
+  }
+}
+
+.modal {
+  &::backdrop {
+    background: linear-gradient(90deg, hsla(175, 79%, 63%, 0.5) 0%, hsla(300, 96%, 57%, 0.5) 100%);;
+  }
+}
