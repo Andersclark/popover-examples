@@ -2,10 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,55 +10,10 @@
 * {
   box-sizing: border-box;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-  &:hover {
-    color: #535bf2;
-  }
-}
-code {
-  font-family: monospace;
-  background-color: black;
-  color: yellow;
-  padding: 8px; 
-  line-height: 1.5
-}
 body {
-  margin: 0;
-  width: 100dvw;
   max-width: 100dvw;
+  width: 100dvw;
   min-height: 100dvh;
+  margin: 0;
   padding: 32px;
-}
-button {
-  font-weight: 500;
-  margin: 8px;
-  padding: 1rem 2rem;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  background-color: hotpink;
-  &:hover {
-    background-color: rgb(127, 255, 200 );
-    cursor: pointer;
-  }
-}
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-family: inherit;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
